@@ -2,6 +2,7 @@
 Python script for building LaTeX envlab formatted envelope list
 """
 import subprocess
+import os
 
 # TODO: pull these from command line args
 TEMPLATE_FILE='envelopes_template.tex'
@@ -45,4 +46,5 @@ if __name__ == '__main__':
 
   subprocess.call(['/opt/local/bin/pdflatex', RESULT_FILE],
       env={'TEXINPUTS': './envlab:'})
+  os.unlink(RESULT_FILE)
 
