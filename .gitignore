@@ -4,6 +4,8 @@
 *.aux
 *.bbl
 *.blg
+*.csv
+*.dat
 *.dvi
 *.fdb_latexmk
 *.glg
@@ -22,11 +24,12 @@
 *.nav
 *.nlo
 *.out
+*.pdf
 *.pdfsync
 *.ps
 *.snm
 *.synctex.gz
+*.tdo
 *.toc
 *.vrb
 *.xdy
-*.tdo
